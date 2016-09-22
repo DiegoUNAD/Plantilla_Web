@@ -7,7 +7,8 @@
 	height: auto;
 	margin: auto;
 	position: relative;
-}
+	text-align: left;
+	}
 
 
 /*ETIQUETAS*/
@@ -19,11 +20,10 @@ background-size: cover;
 
 h1{
 font-family: 'Shadows Into Light', cursive;
-color: blue;
+color: black;
 margin-left: 10px;
-font-size: 40px;
-text-align: left; 
-
+font-size: 60px;
+text-align: center; 
 }
 
 h2{
@@ -41,47 +41,42 @@ font-size: 30px;
 text-align: center; 
 }
 
-h4{
-font-family: 'Shadows Into Light', cursive;;
-color: black;
-font-size: 20px;
-text-align: left;
-}
-
 
 header{
 	width: 1000px;
-	height: 80 px;
+	height: 120 px;
+	background: #006680;
 	background: rgba(255, 255, 255, 10,70);
 }
 
 nav{
 width: 1000px;
 height: 50px;
-background: blue;
+background: #006680;
 border-radius: 10px;
 
 }
-ul{	
+ul{
 margin: auto;
-padding-top: 6px;
+padding-top: 4px;
+
 }
 
 li{
 	float: left;
 	list-style-type: none;
-	padding: 5px;
-	background: ;
+	padding: 10px;
+	background: black;
 	margin: 3px;
 	border-radius: 10px;
-	box-shadow: 0 0 10px black inset; 
+	box-shadow: 0 0 10px white inset; 
 
 }
 
 section{
 	width: 700px;
-	background: yellow;
-	height: 700px;
+	background: #F2B80D;
+	height: 800px;
 	float: left;
 	margin-top: 20px;
 	border-radius: 10px;
@@ -89,7 +84,7 @@ section{
 aside{
 
 	width: 280px;
-	background: orange;
+	background:#333333;
 	height: 600px;
 	float: left;
 	margin-left: 20px;
@@ -100,7 +95,7 @@ aside{
 footer{
 width: 1000px;
 height: 70px;
-background: maroon;
+background: #808080;
 float: left;
 margin-top: 20px;
 border-radius: 10px;
@@ -110,7 +105,7 @@ margin-bottom: 20px;
 p{
 
 	font-size: 15px;
-	font-weight: bolder;
+	font-weight: white;
 	line-height: 24px;
 	padding: 10px;
 	text-align: justify;
