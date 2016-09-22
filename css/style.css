@@ -1,5 +1,5 @@
-/*font-family: 'Shadows Into Light', cursive;
- font-family: 'Indie Flower', cursive;
+/*font-family: 'Lobster', cursive;
+ font-family: 'Pathway Gothic One', cursive;
 */
 
 #contenidos{
@@ -19,15 +19,15 @@ background-size: cover;
 }
 
 h1{
-font-family: 'Shadows Into Light', cursive;
+font-family: 'Lobster', cursive;
 color: black;
 margin-left: 10px;
-font-size: 60px;
-text-align: center; 
+font-size: 40px;
+text-align: left; 
 }
 
 h2{
-font-family: 'Indie Flower', cursive;
+font-family: 'Pathway Gothic One', cursive;
 color: black;
 margin-left: 10px;
 font-size: 20px;
@@ -35,10 +35,11 @@ text-align: left;
 }
 
 h3{
-font-family: 'Shadows Into Light', cursive;;
+font-family: 'Lobster', cursive;
 color: black;
-font-size: 30px;
-text-align: center; 
+font-size: 15px;
+text-align: center;
+
 }
 
 
@@ -76,7 +77,7 @@ li{
 section{
 	width: 700px;
 	background: #F2B80D;
-	height: 800px;
+	height: 1050px;
 	float: left;
 	margin-top: 20px;
 	border-radius: 10px;
@@ -98,6 +99,7 @@ height: 70px;
 background: #808080;
 float: left;
 margin-top: 20px;
+line-height: 2px;
 border-radius: 10px;
 margin-bottom: 20px;
 }
